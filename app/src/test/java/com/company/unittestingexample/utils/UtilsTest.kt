@@ -5,15 +5,15 @@ import org.junit.Assert.*
 import org.junit.Before
 import org.junit.Test
 
-class HelperTest {
+class UtilsTest {
 
-    lateinit var helper: Helper
+    lateinit var utils: Utils
 
     @Before
     fun setUp(){
         println("Before every test case")
         // Arrange
-       helper = Helper()
+       utils = Utils()
     }
 
     @After
@@ -24,7 +24,7 @@ class HelperTest {
     fun isPalindrome() {
 
         // Act
-        val result = helper.isPalindrome("hello")
+        val result = utils.isPalindrome("hello")
 
         // Assert
         assertEquals(false,result)
@@ -36,7 +36,7 @@ class HelperTest {
     fun isPalindrome_inputString_level_expectedTrue() {
 
         // Act
-        val result = helper.isPalindrome("level")
+        val result = utils.isPalindrome("level")
 
         // Assert
         assertEquals(true,result)

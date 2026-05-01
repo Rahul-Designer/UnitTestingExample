@@ -10,13 +10,11 @@ class ParameterizedExample(val input : String, val expectedValue : Boolean) {
 
     @Test
     fun test(){
-        val helper = Helper()
-        val result = helper.isPalindrome(input)
+        val utils = Utils()
+        val result = utils.isPalindrome(input)
         assertEquals(expectedValue,result)
 
     }
-
-
     companion object {
 
         @JvmStatic
