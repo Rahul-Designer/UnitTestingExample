@@ -6,18 +6,6 @@
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="populateQuotes()">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="testPopulateQuotesFromAssets_InvalidJSON_expected_Exception()">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
-      <SelectionState runConfigName="testPopulateQuotesFromAssets_ValidJSON_expected_Count()">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
       <SelectionState runConfigName="testPreviousQuote_expected_CorrectQuote()">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
